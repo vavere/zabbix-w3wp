@@ -19,14 +19,14 @@ Use WMI script for specified application name to find the PID and then the requi
 Installation
 ------------
 
-Copy files to Zabbix Agent directory (C:\Program Files\Zabbix\w3wp-wmi.js)
+Copy files to Zabbix Agent directory (C:\Program Files\Zabbix\)
 
   *   w3wp.conf
   *   w3wp-discovery.js
   *   w3wp-wmi.js
 
 Append Zabbix Agent configuration file (zabbix_agentd.conf) with lines from file *w3wp.conf*
-or *Include* file.
+or *Include* this file.
 
 Import Zabbix template (iis-w3wp.xml) and assign to a Windows IIS host.
 
