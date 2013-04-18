@@ -74,7 +74,7 @@ function PERF_COUNTER_BULK_COUNT(wpname, counter) {
   writeFile(filePath, wpdata2.join(" "));
 
   if (wpdata2 && wpdata1 && wpdata2[0] == wpdata1[0]) {
-    var d = (wpdata2[1] - wpdata1[1]) / wpdata2[2];
+    var d = (wpdata2[1] - wpdata1[1]) / wpdata2[3];
     var n = wpdata2[2] - wpdata1[2];
     return (n/d).toFixed(0);
   }
