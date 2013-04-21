@@ -7,7 +7,6 @@ var counter = WScript.Arguments.Item(1);
 switch(counter) {
   case 'IODataOperationsPerSec':
   case 'IOOtherOperationsPerSec':
-  case 'IOOtherOperationsPerSec':
   case 'IOReadBytesPerSec':
   case 'IOReadOperationsPerSec':
   case 'IOWriteBytesPerSec':
